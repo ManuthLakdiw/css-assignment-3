@@ -29,12 +29,15 @@ body {
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: lightgray;
+    transition: background-color 0.5s , scale 0.5s ;
+
   }
   
   .case-container  div:hover {
     background-color: black;
     color: white;
     cursor: pointer;
+    transform: scale(1.1);
   }
   
   .case-container p {
